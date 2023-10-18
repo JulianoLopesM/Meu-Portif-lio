@@ -1,0 +1,135 @@
+/* estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+.box { 
+        background: grey; 
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 30px;
+        width: 500px;
+        height: 770px;
+        transition: .2s;
+        align-items: center;
+        padding: 10px 45px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* Estilo cabeçalho */
+header{
+    padding: 40px 4%;
+
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.2);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px ;
+}
+/* Estilizando meu formulario, ajeitando detalhes, adicionando cores, fontes, margens e bordas. */
+section .box h2{
+    text-align: center;
+    margin: 40px 4%;
+    font-size: 30px;
+}
+section .box form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #1d1dc5 ;
+    color: #1d1dc5;
+    
+}
+form button:hover{
+    background-color: white;
+    color: #1d1dc5;
+    border-radius: 16px;
+}
+header .contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #191984;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+header .contato button:hover{
+    box-shadow: 0px 0px 8px #1d1dc5;
+}
+section .box:hover{
+    box-shadow: 0px 0px 8px rgb(204, 202, 202);
+}
+section .box:hover{
+    
+    transform: scale(1.1);
+}

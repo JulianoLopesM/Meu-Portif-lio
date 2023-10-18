@@ -1,0 +1,32 @@
+
+
+/* Estilo da pagina de agradecimento */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    min-width: 100vh;
+    background-color: black;
+    flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: #1d1dc5;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.botao{
+    padding: 15px 55px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all o.5s;
+}
+.botao:hover{
+    border-radius: 16px;
+}
